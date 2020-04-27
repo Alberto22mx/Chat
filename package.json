@@ -1,0 +1,27 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat en tiempo real",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alberto22mx/Chat.git"
+  },
+  "author": "Jose Alberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alberto22mx/Chat/issues"
+  },
+  "homepage": "https://github.com/Alberto22mx/Chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
